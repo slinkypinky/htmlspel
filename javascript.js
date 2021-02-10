@@ -1,6 +1,6 @@
 "use strict";
 
-let todos = [" "];
+let todos = ["  "];
 let listRoot = document.querySelector("#list");
 let listForm = document.querySelector("[form]");
 let listInput = document.querySelector("[input]"); 
