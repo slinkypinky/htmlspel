@@ -19,9 +19,18 @@ section {
   padding: 5rem;
 }
 
-.list {
-  background-color: #46529d;
+#list {
   color: whitesmoke;
+}
+
+li {
+  background-color: #46529d;
+}
+
+li:hover {
+  background-color: #404a8f;
+  color: black;
+  text-decoration: line-through;
 }
 
 form {
