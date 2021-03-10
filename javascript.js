@@ -36,12 +36,14 @@ function todoList(items) {
   let list = document.createElement("ul");
   items.forEach((item) => {
     let todoListItem = document.createElement("li");
+    
     todoListItem.innerHTML += item.name;
     todoListItem.setAttribute("data-id", item.id);
     todoListItem.setAttribute("created-date", item.creation)
     todoListItem.classList.add("todo-list-item");
     todoListItem.addEventListener("click", removeItem);
     list.append(todoListItem);
+
     let itemDate = document.createElement("li");
     itemDate.innerHTML += item.creation;
     list.append(itemDate);
